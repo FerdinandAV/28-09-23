@@ -8,7 +8,7 @@ System.out.println("Please type your name");
     String name = scanner.nextLine();
 
 System.out.println("Please type your age");
-    String age = scanner.nextLine();
+    int age = scanner.nextLine();
     
 
 
@@ -16,7 +16,7 @@ System.out.println("Please type your age");
     System.out.println("Name: " + name);
     System.out.println(" Age: " + age);
 
-int retirementAge = 67-Integer.parseInt(age);
+int retirementAge = 67-age;
 System.out.println("Years until retirement: " + retirementAge + " Years");
 
 }

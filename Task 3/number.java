@@ -12,14 +12,14 @@ public class GuessANumber {
         rnd_number = random.nextInt(100) + 1;
         System.out.println( "I'm thinking of a number between 1 and 100 (including both).");
 		System.out.println( "Can you guess what it is?...");
-        makeAGuess(4);
+        makeAGuess();
  	}
 
 
     private static void makeAGuess(){
 		Scanner scanner = new Scanner(System.in);
-        println("Guess a number from 0 to 100");
-        int number = scanner.nextLine();
+        System.out.println("Guess a number from 0 to 100");
+        
         // Create a Scanner object   	 
     	// Read user input
     	

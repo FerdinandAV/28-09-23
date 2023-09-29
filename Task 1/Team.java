@@ -6,13 +6,8 @@ private int rank;
 public Team(String teamName){
 this.teamName = teamName;
 
-
 }
-public String getteamName(){
-return teamName;
-
-}
-void setrank(int rank){
+public void setrank(int rank){
 this.rank = rank;
 }
 public String toString(){

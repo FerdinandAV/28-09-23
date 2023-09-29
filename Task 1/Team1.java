@@ -4,7 +4,7 @@ private String teamName;
 private String memberName;
 private int rank;
 
-Team team1 = new Team(String teamName, String memberName, int rank){
+Team(String teamName, String memberName, int rank){
 this.teamName = teamName;
 this.memberName = memberName;
 this.rank = rank;
@@ -24,8 +24,8 @@ public int getrank(){
 return rank;
 }
 
-void setrank(int num){
-this.rank = num;
+void setrank(int rank){
+this.rank = rank;
 
 }
 }
